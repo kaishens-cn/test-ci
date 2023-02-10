@@ -1,0 +1,30 @@
+name: npm Push
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Build
+        run: |
+          pwd
+
+      - name: Publish to npm
+        run: |
+          pwd
+
+      - name: Publish to GitHub Package
+        run: |
+          pwd
