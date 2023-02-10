@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/kaishens-cn/test-ci/compare/v1.0.0...v1.1.0) (2023-02-10)
+
+
+### Features
+
+* 创建npm ([f8a7334](https://github.com/kaishens-cn/test-ci/commit/f8a733412211927bf7b13b703a87e54bbe704a03))
+
 ## 1.0.0 (2023-02-10)
 
 
